@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-class SeleCall():
+class SeleCall:
     def __init__(self):
         PATH = "/Users/dangvue0/Downloads/chromedriver"
         self.myBrowser = webdriver.Chrome(PATH)
